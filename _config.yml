@@ -1,0 +1,6 @@
+title: Seanchas
+description: Privacy policies for Seanchas apps
+# Pages' default theme (Primer): plain and readable, nothing to maintain.
+theme: jekyll-theme-primer
+exclude:
+  - README.md

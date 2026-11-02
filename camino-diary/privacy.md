@@ -51,6 +51,10 @@ Your data only leaves the app when you, or Android at your request, copy it some
   you switch them in. Your diary pages and photos are never sent. Receiving phone to phone shows the sender your
   phone's name, as set in Android's settings (or its model, if it has no name).
 
+  When what changed since your last send is small, the code on your screen also holds that change (never your
+  bookings), so a buddy who already has your plan takes it straight from their camera, with no connection. Like the
+  plan on your screen, anyone who scans the code while it shows can read that change.
+
   To find the other phone, Android asks for the "nearby devices" permission; on Android 11 and older it calls this
   location. The app uses it only to find the other phone while Send this plan or Receive a plan is open, and never
   to work out or record where you are.

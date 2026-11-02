@@ -25,12 +25,14 @@ Everything you put into Camino Diary is stored on your phone, inside the app's o
 - the photos and stamp images you add (the app keeps its own copy of each);
 - your settings.
 
-None of it is sent to us. The app has no servers of its own.
+None of it is sent to us. The app has no servers of its own. The maps come with the app, so looking at one sends
+nothing anywhere.
 
 **Photos.** You choose photos through Android's photo picker, which gives the app only the photos you pick. The
 picker removes the location from those photos. A photo taken with the Camera button in the app is taken by your
 camera app, and may keep the location your camera app records. Camino Diary does not read photo locations, and it
-does not ask for permission to use your location.
+never records where you are. (The one permission Android may call "location" is for finding a buddy's phone; see
+Sending a plan below.)
 
 ## Copies you choose to make
 
@@ -42,6 +44,22 @@ Your data only leaves the app when you, or Android at your request, copy it some
 - **Automatic copy.** If you turn it on in Settings, the app saves a copy of each trip, photos included, into a folder
   you choose. If that folder is in a cloud service such as Google Drive, that service's terms apply to it.
 - **Export.** When you export a trip, the app makes a file and you choose where it goes or who it's shared with.
+- **Sending a plan.** When you send a trip's plan to a walking buddy, it goes straight to their phone: as a file you
+  share (for example by Quick Share, a chat app or email), or phone to phone over Bluetooth and Wi-Fi after they scan
+  the code on your screen. It never passes through us. A plan holds the trip's days and the name you give; before
+  sending you choose what goes with them (each kind of stop, other ways and day notes), and your bookings go only if
+  you switch them in. Your diary pages and photos are never sent. Receiving phone to phone shows the sender your
+  phone's name, as set in Android's settings (or its model, if it has no name).
+
+  To find the other phone, Android asks for the "nearby devices" permission; on Android 11 and older it calls this
+  location. The app uses it only to find the other phone while Send this plan or Receive a plan is open, and never
+  to work out or record where you are.
+
+  Scanning the code and finding the other phone are done by Google Play services on your phone (Google's code
+  scanner and Nearby Connections). The app never gets your camera: Google's scanner takes the picture and hands back
+  only the code. While they run, Google Play services may send Google diagnostics such as your phone's model, Android
+  version, country and how well the connection worked, under Google's own privacy policy; we don't receive them. You
+  can turn this off in your phone's settings, under Google, then Usage & diagnostics.
 
 <!-- WHEN crash reporting (Sentry) is switched on, add a section here: what a crash report holds (device model,
      Android version, app version, the error and its stack trace; never diary text or photos), that it goes to

@@ -30,9 +30,14 @@ nothing anywhere.
 
 **Photos.** You choose photos through Android's photo picker, which gives the app only the photos you pick. The
 picker removes the location from those photos. A photo taken with the Camera button in the app is taken by your
-camera app, and may keep the location your camera app records. Camino Diary does not read photo locations, and it
-never records where you are. (The one permission Android may call "location" is for finding a buddy's phone; see
-Sending a plan below.)
+camera app, and may keep the location your camera app records. Camino Diary does not read photo locations.
+
+**Where you are.** If you tap Show where I am on Today, the app asks for your location, and from then on uses it to
+show you on the day's map and say how far you've come and how far there is to go. It reads your location only while
+Today or a day's map is open, never in the background, and keeps it in memory only: it is never saved, never added to
+your diary, and never sent anywhere. Approximate location is enough. You can take the permission back in your phone's
+settings at any time. (On Android 11 and older, finding a buddy's phone also counts as location; see Sending a plan
+below.)
 
 ## Copies you choose to make
 
@@ -44,6 +49,9 @@ Your data only leaves the app when you, or Android at your request, copy it some
 - **Automatic copy.** If you turn it on in Settings, the app saves a copy of each trip, photos included, into a folder
   you choose. If that folder is in a cloud service such as Google Drive, that service's terms apply to it.
 - **Export.** When you export a trip, the app makes a file and you choose where it goes or who it's shared with.
+- **Sharing a day.** When you tap Share on a written day, the app makes one picture of it (its photo or map, its
+  route and distance, and your words only if you switch them in) and hands it to the app you choose, such as a chat
+  app. It goes nowhere else.
 - **Sending a plan.** When you send a trip's plan to a walking buddy, it goes straight to their phone: as a file you
   share (for example by Quick Share, a chat app or email), or phone to phone: their camera reads the code on your
   screen. It never passes through us. A plan holds the trip's days and the name you give; before sending you choose

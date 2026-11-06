@@ -57,6 +57,9 @@ any identifier from us.
 | My location in the swim editor, with Where empty and not at a spot you have logged | Your coordinates rounded to about 10 m, to name the spot | Photon, as above |
 | Water quality, weather and "check before you swim" (paid Conditions data add-on) | The coordinates of the place you are viewing | Public data services: the Environment Agency, Natural Resources Wales, Ireland's EPA, DAERA (Northern Ireland), MET Norway, and the public storm-overflow feeds of English and Scottish water companies |
 
+MET Norway states that it keeps the IP address and the coordinates of each forecast request in its server logs in Oslo.
+If you would rather not send them, do not use the weather forecast on Planning.
+
 Tide times and most bathing-water classifications are bundled with the app and worked out on your phone, so looking
 at them sends nothing.
 

@@ -21,7 +21,7 @@ TODO: the button is being built; remove this notice when it ships.
 
 ## If you can't open the app
 
-If you lost your phone, or uninstalled the app, email **TODO: contact email** from the address you linked in Settings →
+If you lost your phone, or uninstalled the app, email **seanchas.apps@gmail.com** from the address you linked in Settings →
 Cloud sync → Account recovery, with the subject "Delete my Wild Swim Log data". We will:
 
 1. reply to confirm it is you (we may ask you to sign in with the one-time code the app sends to that address);

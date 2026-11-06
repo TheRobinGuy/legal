@@ -149,4 +149,4 @@ If this policy changes, the new version is posted here with a new date. Every pa
 
 ## Contact us
 
-TODO: contact email address
+seanchas.apps@gmail.com

@@ -8,7 +8,7 @@ this one public repo is served by GitHub Pages, with a folder per app:
 | App | Folder | Policy URL | Status |
 | --- | --- | --- | --- |
 | Camino Diary | [`camino-diary/`](camino-diary/) | `/camino-diary/privacy/` | Draft |
-| Wild Swim Log | | | Not started |
+| Wild Swim Log | [`wild-swim-log/`](wild-swim-log/) | `/wild-swim-log/privacy/` (deletion requests: `/wild-swim-log/delete-account/`) | Draft |
 | Line of Fire | | | Not started |
 
 ## Rules

@@ -30,9 +30,14 @@ nothing anywhere.
 
 **Photos.** You choose photos through Android's photo picker, which gives the app only the photos you pick. The
 picker removes the location from those photos. A photo taken with the Camera button in the app is taken by your
-camera app, and may keep the location your camera app records. Camino Diary does not read photo locations, and it
-never records where you are. (The one permission Android may call "location" is for finding a buddy's phone; see
-Sending a plan below.)
+camera app, and may keep the location your camera app records. Camino Diary does not read photo locations.
+
+**Where you are.** If you tap Show where I am on Today, the app asks for your location, and from then on uses it to
+show you on the day's map and say how far you've come and how far there is to go. It reads your location only while
+Today or a day's map is open, never in the background, and keeps it in memory only: it is never saved, never added to
+your diary, and never sent anywhere. Approximate location is enough. You can take the permission back in your phone's
+settings at any time. (On Android 11 and older, finding a buddy's phone also counts as location; see Sending a plan
+below.)
 
 ## Copies you choose to make
 
@@ -44,21 +49,31 @@ Your data only leaves the app when you, or Android at your request, copy it some
 - **Automatic copy.** If you turn it on in Settings, the app saves a copy of each trip, photos included, into a folder
   you choose. If that folder is in a cloud service such as Google Drive, that service's terms apply to it.
 - **Export.** When you export a trip, the app makes a file and you choose where it goes or who it's shared with.
+- **Sharing a day.** When you tap Share on a written day, the app makes one picture of it (its photo or map, its
+  route and distance, and your words only if you switch them in) and hands it to the app you choose, such as a chat
+  app. It goes nowhere else.
 - **Sending a plan.** When you send a trip's plan to a walking buddy, it goes straight to their phone: as a file you
-  share (for example by Quick Share, a chat app or email), or phone to phone over Bluetooth and Wi-Fi after they scan
-  the code on your screen. It never passes through us. A plan holds the trip's days and the name you give; before
-  sending you choose what goes with them (each kind of stop, other ways and day notes), and your bookings go only if
-  you switch them in. Your diary pages and photos are never sent. Receiving phone to phone shows the sender your
-  phone's name, as set in Android's settings (or its model, if it has no name).
+  share (for example by Quick Share, a chat app or email), or phone to phone: their camera reads the code on your
+  screen. It never passes through us. A plan holds the trip's days and the name you give; before sending you choose
+  what goes with them (each kind of stop, other ways and day notes), and your bookings go only if you switch them in.
+  Your diary pages and photos are never sent. Receiving over Bluetooth and Wi-Fi shows the sender your phone's name,
+  as set in Android's settings (or its model, if it has no name).
 
-  To find the other phone, Android asks for the "nearby devices" permission; on Android 11 and older it calls this
-  location. The app uses it only to find the other phone while Send this plan or Receive a plan is open, and never
-  to work out or record where you are.
+  The code on your screen holds the plan itself (never your bookings), so a buddy takes it straight from their
+  camera, with no connection. Anyone who scans the code while it shows can read the plan.
 
-  Scanning the code and finding the other phone are done by Google Play services on your phone (Google's code
-  scanner and Nearby Connections). The app never gets your camera: Google's scanner takes the picture and hands back
-  only the code. While they run, Google Play services may send Google diagnostics such as your phone's model, Android
-  version, country and how well the connection worked, under Google's own privacy policy; we don't receive them. You
+  To read the code, the app asks for the camera when you open Receive a plan. The app uses it only while that screen
+  is open, to look for the code; no picture or video is recorded or kept, and nothing the camera sees leaves your
+  phone.
+
+  When a plan is too big for the code, or goes with your bookings, the phones find each other over Bluetooth and
+  Wi-Fi. For that, Android asks for the "nearby devices" permission; on Android 11 and older it calls this location.
+  The app uses it only to find the other phone while Send this plan or Receive a plan is open, and never to work out
+  or record where you are.
+
+  Reading the code uses Google's ML Kit, which runs on your phone; finding the other phone uses Nearby Connections
+  from Google Play services. Both may send Google diagnostics such as your phone's model, Android version, country,
+  and how well they worked, under Google's own privacy policy; we don't receive them. For Google Play services, you
   can turn this off in your phone's settings, under Google, then Usage & diagnostics.
 
 <!-- WHEN crash reporting (Sentry) is switched on, add a section here: what a crash report holds (device model,

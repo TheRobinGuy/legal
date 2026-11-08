@@ -111,7 +111,8 @@ data (regions) once the projects are fixed, and how long Sentry keeps reports.
 ## Deleting your data
 
 - **On your phone:** deleting a swim removes it from the app. Uninstalling the app removes everything it stored on
-  your phone.
+  your phone. If Android backup was on, a copy may remain in your Google account (and can come back if you reinstall);
+  manage or delete it in your Google account's backup settings.
 - **In the cloud:** in the app, go to Settings → Cloud sync → Delete my cloud data. This deletes every swim we hold for
   your sync identity and the identity itself, including a linked email. TODO: this button is being built; remove this
   notice when it ships.

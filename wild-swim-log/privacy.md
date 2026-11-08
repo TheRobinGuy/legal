@@ -5,11 +5,11 @@ permalink: /wild-swim-log/privacy/
 
 # Wild Swim Log privacy policy
 
-> **Draft, not yet in effect.** TODO before publishing: fill the developer's legal name and the contact address, set
-> the date below, remove this notice, and have the policy reviewed (not legal advice). Re-check it against the
-> release build and the Play Data safety form.
+> **Draft, not yet in effect.** TODO before publishing: fill the developer's legal name (once, below), remove this
+> notice, and have the policy reviewed (not legal advice). Re-check it against the release build and the Play Data
+> safety form.
 
-Last updated: TODO
+Last updated: 8 November 2026
 
 Wild Swim Log is a swim logbook made by Seanchas (TODO: legal name as registered in the Play Console). This policy
 says what the app does with your information.
@@ -41,8 +41,8 @@ password, and we never use the address for marketing. If you don't link one, we 
 yours.
 
 Deleting a swim in the app marks it deleted in the cloud copy and removes it from your other devices on their next
-sync. TODO: update this paragraph when the account-deletion work lands (the deleted copy is currently kept, in full,
-until the account is deleted). To remove everything we hold, see "Deleting your data".
+sync. The deleted copy stays in the cloud, flagged as deleted and with its content, until you delete your cloud data
+(Settings → Cloud sync → Delete my cloud data). To remove everything we hold, see "Deleting your data".
 
 ## Lookups the app makes
 
@@ -66,6 +66,10 @@ at them sends nothing.
 **Location permission.** The app asks for your location only when you tap a button that needs it (such as My
 location in the editor, or a nearby search). It does not read your location in the background. Approximate location
 is enough. You can take the permission back in your phone's settings at any time.
+
+**Other permissions.** The microphone is used only while you record a voice note, and the recording stays on your
+phone. Notifications are used only for the swim reminders you set up, which are scheduled on your phone; the app also
+re-schedules them when your phone restarts. Neither sends anything to us.
 
 ## Crash reports and usage signals
 
@@ -92,7 +96,7 @@ Data only leaves the app when you, or Android at your request, copy it:
 
 ## What we don't do
 
-- No advertising, and no advertising identifiers. (TODO: confirm after the `play-services-ads-identifier` check.)
+- No advertising, and no advertising identifiers. The app does not ask for the advertising ID permission.
 - No selling or sharing of your information.
 - No tracking across other apps or websites.
 
@@ -105,8 +109,9 @@ Data only leaves the app when you, or Android at your request, copy it:
 | RevenueCat, Inc. | Purchase status and a random app user ID | [revenuecat.com/privacy](https://www.revenuecat.com/privacy/) |
 | Google Play | Payments and app delivery | [policies.google.com/privacy](https://policies.google.com/privacy) |
 
-Each acts on our instructions as a processor, under its own data processing terms. TODO: record where each stores
-data (regions) once the projects are fixed, and how long Sentry keeps reports.
+Each acts on our instructions as a processor, under its own data processing terms. Some of these companies are based
+in the United States, so your data may be processed outside the EU and the UK, under the safeguards in those terms.
+Sentry keeps crash reports for the period its plan sets; they are not used for anything but fixing bugs.
 
 ## Deleting your data
 
@@ -114,8 +119,8 @@ data (regions) once the projects are fixed, and how long Sentry keeps reports.
   your phone. If Android backup was on, a copy may remain in your Google account (and can come back if you reinstall);
   manage or delete it in your Google account's backup settings.
 - **In the cloud:** in the app, go to Settings → Cloud sync → Delete my cloud data. This deletes every swim we hold for
-  your sync identity and the identity itself, including a linked email. TODO: this button is being built; remove this
-  notice when it ships.
+  your sync identity and the identity itself, including a linked email. Swims stay on your phone unless you delete them
+  too.
 - **Without the app** (you have lost your phone, or uninstalled): use the request page at
   [Delete your Wild Swim Log data](../delete-account/). If you linked an email, we can find and delete your backup
   from it. If you never linked one, we cannot tell which backup is yours, so there is nothing we can look up; that

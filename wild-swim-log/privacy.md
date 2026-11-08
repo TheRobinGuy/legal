@@ -5,13 +5,9 @@ permalink: /wild-swim-log/privacy/
 
 # Wild Swim Log privacy policy
 
-> **Draft, not yet in effect.** TODO before publishing: fill the developer's legal name (once, below), remove this
-> notice, and have the policy reviewed (not legal advice). Re-check it against the release build and the Play Data
-> safety form.
-
 Last updated: 8 November 2026
 
-Wild Swim Log is a swim logbook made by Seanchas (TODO: legal name as registered in the Play Console). This policy
+Wild Swim Log is a swim logbook made by Seanchas, in Ireland. This policy
 says what the app does with your information.
 
 **In short: your swims, notes and photos stay on your phone unless you turn on Cloud sync. Photos never leave your
@@ -61,7 +57,8 @@ MET Norway states that it keeps the IP address and the coordinates of each forec
 If you would rather not send them, do not use the weather forecast on Planning.
 
 Tide times and most bathing-water classifications are bundled with the app and worked out on your phone, so looking
-at them sends nothing.
+at them sends nothing. The bundled classifications for Italy and other EU countries come from the European Environment
+Agency's bathing-water data, supplied by the Member States.
 
 **Location permission.** The app asks for your location only when you tap a button that needs it (such as My
 location in the editor, or a nearby search). It does not read your location in the background. Approximate location
@@ -149,9 +146,6 @@ If this policy changes, the new version is posted here with a new date. Every pa
      sessions: start, end, title, and distance), that it is read only after the user allows it, kept on the phone
      as ordinary swims, never written back, and never sent anywhere except through Cloud sync if the user has it on.
      Also file Play's health-permissions declaration and update the Data safety form first (review has lead time). -->
-
-<!-- WHEN EEA or Italian bathing-water data ships, name the EEA as the source of the bundled classifications and
-     update the date. The data is bundled, so no new request is made. -->
 
 <!-- WHEN a new network service, SDK or permission is added, add a row or section here in the same release, and
      update the Data safety form. -->

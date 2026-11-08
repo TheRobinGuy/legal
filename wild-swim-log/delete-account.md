@@ -5,9 +5,6 @@ permalink: /wild-swim-log/delete-account/
 
 # Delete your Wild Swim Log data
 
-> **Draft, not yet in effect.** TODO before publishing: remove this notice. Google Play requires this page's URL in the
-> Play Console.
-
 This page is for Wild Swim Log users who want their Cloud sync data deleted. The data we can hold is the copy of your
 swim logs that Cloud sync makes, a random sync identity, and, if you linked one for account recovery, your email
 address. Photos and voice notes are never uploaded.

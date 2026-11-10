@@ -5,7 +5,7 @@ permalink: /line-of-fire/terms/
 
 # Line of Fire terms of service
 
-Last updated: 9 November 2026
+Last updated: 10 November 2026
 
 These terms cover your use of Line of Fire, a stickman shooter made by Seanchas, in Ireland ("we", "us"). By installing or playing the app you agree to them. If you don't agree, please uninstall it. How we handle your information is in the [privacy policy](../privacy/).
 
@@ -23,12 +23,13 @@ The app is a cartoon-violence action game and is not aimed at children under 13.
 
 ## Purchases
 
-<!-- WHEN billing ships: confirm the product name, that it is a one-time non-consumable, and that the free part matches the store listing. -->
-The app is free to download. It may offer a one-time purchase, the "Full Game" unlock, to open the rest of the game. There are no adverts and no subscriptions.
+<!-- Matches the build: one non-consumable "Full Game", free part = World 1 + Daily run + Locker, waiver tick box before purchase. Update if the product or the free part changes. -->
+The app is free to download. World 1 (stages 1-1 to 1-3 with its boss), the Daily run and the Locker are free. A one-time purchase, the "Full Game" unlock, opens the rest: worlds 2 to 4, Dead Line, Arcade, Boss rush, Hard and the seasonal worlds. There are no adverts and no subscriptions, and nothing you can buy makes your character stronger.
 
 - Payment is handled by Google Play, under Google's terms. We never see your payment details.
-- The unlock belongs to your Google account and works on devices signed in to it. It can be restored after a reinstall through Google Play.
-- Refunds are handled by Google Play under its refund policy. You also keep any rights you have under consumer law, including your right to withdraw from a digital purchase in the EU, subject to the rules that apply to digital content.
+- The unlock belongs to your Google account and works on devices signed in to it. It can be restored after a reinstall with "Restore purchase" on the Full Game screen, which asks Google Play (through RevenueCat) what you own. Once it has been checked, the unlock keeps working offline.
+- Before you buy, the app asks you to tick a box confirming that you want the Full Game to start straight away and that you understand you then lose your 14-day right to withdraw from a digital purchase in the EU. Without the tick you can't buy in the app.
+- Refunds are handled by Google Play under its refund policy, and the unlock stops working if the purchase is refunded. You keep any other rights you have under consumer law.
 - Coins and cosmetics earned in play have no cash value and can't be bought, sold or transferred.
 
 ## Your save

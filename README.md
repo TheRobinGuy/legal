@@ -8,7 +8,7 @@ this one public repo is served by GitHub Pages, with a folder per app:
 | App | Folder | Policy URL | Status |
 | --- | --- | --- | --- |
 | Camino Diary | [`camino-diary/`](camino-diary/) | `/camino-diary/privacy/` | Draft |
-| Wild Swim Log | [`wild-swim-log/`](wild-swim-log/) | `/wild-swim-log/privacy/` (deletion requests: `/wild-swim-log/delete-account/`) | Ready to publish once the branch is merged |
+| Wild Swim Log | [`wild-swim-log/`](wild-swim-log/) | `/wild-swim-log/privacy/` (terms of service: `/wild-swim-log/terms/`; deletion requests: `/wild-swim-log/delete-account/`) | Ready; the privacy policy describes the free live-warning check, so merge this branch with the release that ships it |
 | Line of Fire | | | Not started |
 
 ## Rules

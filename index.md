@@ -8,4 +8,4 @@ permalink: /
 Privacy policies for our apps:
 
 - [Camino Diary](camino-diary/privacy/)
-- [Wild Swim Log](wild-swim-log/privacy/) · [delete your data](wild-swim-log/delete-account/)
+- [Wild Swim Log](wild-swim-log/privacy/) · [terms of service](wild-swim-log/terms/) · [delete your data](wild-swim-log/delete-account/)

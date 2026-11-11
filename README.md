@@ -9,7 +9,7 @@ this one public repo is served by GitHub Pages, with a folder per app:
 | --- | --- | --- | --- |
 | Camino Diary | [`camino-diary/`](camino-diary/) | `/camino-diary/privacy/` | Draft |
 | Wild Swim Log | [`wild-swim-log/`](wild-swim-log/) | `/wild-swim-log/privacy/` (terms of service: `/wild-swim-log/terms/`; deletion requests: `/wild-swim-log/delete-account/`) | Ready; the privacy policy describes the free live-warning check, so merge this branch with the release that ships it |
-| Line of Fire | | | Not started |
+| Line of Fire | [`line-of-fire/`](line-of-fire/) | `/line-of-fire/privacy/` (terms of service: `/line-of-fire/terms/`) | Ready; update both when Sentry and billing ship |
 
 ## Rules
 

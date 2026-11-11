@@ -5,7 +5,8 @@ permalink: /
 
 # Seanchas
 
-Privacy policies for our apps:
+Privacy policies and terms for our apps:
 
 - [Camino Diary](camino-diary/privacy/)
 - [Wild Swim Log](wild-swim-log/privacy/) · [terms of service](wild-swim-log/terms/) · [delete your data](wild-swim-log/delete-account/)
+- [Line of Fire](line-of-fire/privacy/) · [terms of service](line-of-fire/terms/)

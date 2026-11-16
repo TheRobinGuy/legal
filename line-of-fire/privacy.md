@@ -5,7 +5,7 @@ permalink: /line-of-fire/privacy/
 
 # Line of Fire privacy policy
 
-Last updated: 9 November 2026
+Last updated: 15 November 2026
 
 Line of Fire is a stickman shooter made by Seanchas, in Ireland. This policy says what the app does with your information.
 
@@ -19,19 +19,32 @@ Your save (stages cleared, scores, coins, unlocks, settings) is stored in the ap
 
 ## Crash reports
 
-<!-- WHEN Sentry ships: confirm the opt-in wording, the retention period and the event fields below match the build. -->
-If you allow it, the app sends crash and error reports to Sentry (Functional Software, Inc.), which acts as our processor. Reports are optional and can be switched off in Settings. If you are offline, reports wait on your phone and are sent next time you are online and playing.
+<!-- Matches the build: opt-in, asked once after the first crash, Settings > Privacy switch. CHECK before release: the retention below equals the Sentry project's setting, and "Prevent Storing of IP Addresses" is on. -->
+Crash reports are off until you say yes. The first time the game crashes it asks once whether to send crash reports; you can change your answer any time in Settings, under Privacy. If you say yes, reports go to Sentry (Functional Software, Inc.), which acts as our processor. If you are offline, reports wait on your phone and are sent next time you are online and playing. Switching reports off deletes any that are still waiting.
 
-A report holds: the error message and stack, the app version, the stage and mode you were playing, your phone model and Android version, and a random install ID the app makes. It holds no name, email, Google account, device ID, save contents or purchase information, and we ask Sentry not to store IP addresses.
+A report holds: the error message and stack, the app version, the stage, mode and difficulty you were playing, whether you own the Full Game (so we can tell if paying players hit a problem), your phone model and Android version, and a random install ID the app makes. It holds no name, email, Google account, device ID or save contents, and we ask Sentry not to store IP addresses. Sentry keeps reports for 90 days.
 
 ## Purchases
 
-<!-- WHEN billing ships: this section describes the one-time "Full Game" unlock. Update if the product list changes. -->
-The app may offer a one-time purchase to unlock the full game. Payment is handled entirely by Google Play. We never see your card or payment details; Google tells the app whether the purchase is owned.
+<!-- Matches the build: one non-consumable "Full Game" via Google Play, with RevenueCat checking ownership. Update if the product list changes. -->
+The free part of the game is World 1, the Daily run and the Locker. A one-time purchase, the Full Game, unlocks the rest. Payment is handled entirely by Google Play. We never see your card or payment details.
+
+To know what you own, the app uses RevenueCat, Inc., which acts as our processor. The app gives RevenueCat a random app user ID it makes, and RevenueCat checks your purchase with Google Play and tells the app whether the Full Game is owned. RevenueCat holds that ID, your purchase and its status, and, as any service on the internet does, receives your IP address when the app connects. The app remembers the answer on your phone so the game works offline. To restore your purchase on a new phone, use "Restore purchase" on the Full Game screen.
+
+## Access codes
+
+If you type an access code (for example, one given to a Google Play app reviewer), the app sends the code and your random app user ID to a function we run on Supabase, Inc., our processor. It checks the code and, if it is right, asks RevenueCat to switch the Full Game on for that ID for 30 days. The function's logs may keep the ID and the result for a short time. Nothing is sent unless you press Unlock.
+
+## Co-op with friends nearby
+
+<!-- Matches the build: Google Nearby Connections (Bluetooth and Wi-Fi, no internet), permissions asked only when the player taps Host or Join. Update if co-op ever goes over the internet. -->
+Co-op connects phones directly to each other over Bluetooth and Wi-Fi, using Google's Nearby Connections. It needs no internet and no account, and nothing from a co-op game is sent to us. The phones exchange game data (the moves and state of the game) with each other, and your phone's model name and chosen stickman, scarf colour and hat are shown to the other players in that game. That data is not kept after the game. Unlocks and stars earned in a game are saved on the host's phone; each phone keeps its own coins.
 
 ## Permissions
 
-The app uses the internet only for the optional crash reports above. It does not use your location, contacts, camera or microphone.
+The app uses the internet to check what you own, to send crash reports if you allowed them, and to check an access code if you enter one.
+
+Co-op asks for Bluetooth, Nearby devices (Wi-Fi) and Location permissions, and only when you tap Host or Join, never at launch. Android requires them so the app can find and connect to the other phone. The app does not read, store or send your location. If you don't allow them, the rest of the game works as normal; only co-op is unavailable. The app does not use your contacts, camera or microphone.
 
 ## Children
 
@@ -39,7 +52,7 @@ The app is a cartoon-violence action game and is not aimed at children under 13.
 
 ## Your choices and contact
 
-You can switch off crash reports in Settings, turn off Android backup, or uninstall the app, which removes the save from your phone. To ask about data, contact: seanchas.apps@gmail.com
+You can switch crash reports on or off in Settings, turn off Android backup, or uninstall the app, which removes the save from your phone. To ask about data, contact: seanchas.apps@gmail.com
 
 ## Changes
 

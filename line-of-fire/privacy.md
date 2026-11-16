@@ -5,7 +5,7 @@ permalink: /line-of-fire/privacy/
 
 # Line of Fire privacy policy
 
-Last updated: 10 November 2026
+Last updated: 15 November 2026
 
 Line of Fire is a stickman shooter made by Seanchas, in Ireland. This policy says what the app does with your information.
 
@@ -35,9 +35,16 @@ To know what you own, the app uses RevenueCat, Inc., which acts as our processor
 
 If you type an access code (for example, one given to a Google Play app reviewer), the app sends the code and your random app user ID to a function we run on Supabase, Inc., our processor. It checks the code and, if it is right, asks RevenueCat to switch the Full Game on for that ID for 30 days. The function's logs may keep the ID and the result for a short time. Nothing is sent unless you press Unlock.
 
+## Co-op with friends nearby
+
+<!-- Matches the build: Google Nearby Connections (Bluetooth and Wi-Fi, no internet), permissions asked only when the player taps Host or Join. Update if co-op ever goes over the internet. -->
+Co-op connects phones directly to each other over Bluetooth and Wi-Fi, using Google's Nearby Connections. It needs no internet and no account, and nothing from a co-op game is sent to us. The phones exchange game data (the moves and state of the game) with each other, and your phone's model name and chosen stickman, scarf colour and hat are shown to the other players in that game. That data is not kept after the game. Unlocks and stars earned in a game are saved on the host's phone; each phone keeps its own coins.
+
 ## Permissions
 
-The app uses the internet to check what you own, to send crash reports if you allowed them, and to check an access code if you enter one. It does not use your location, contacts, camera or microphone.
+The app uses the internet to check what you own, to send crash reports if you allowed them, and to check an access code if you enter one.
+
+Co-op asks for Bluetooth, Nearby devices (Wi-Fi) and Location permissions, and only when you tap Host or Join, never at launch. Android requires them so the app can find and connect to the other phone. The app does not read, store or send your location. If you don't allow them, the rest of the game works as normal; only co-op is unavailable. The app does not use your contacts, camera or microphone.
 
 ## Children
 

@@ -5,7 +5,7 @@ permalink: /wild-swim-log/privacy/
 
 # Wild Swim Log privacy policy
 
-Last updated: 8 November 2026
+Last updated: 10 November 2026
 
 Wild Swim Log is a swim logbook made by Seanchas, in Ireland. This policy
 says what the app does with your information.
@@ -52,6 +52,7 @@ any identifier from us.
 | Search for a place, or typing in a swim's Where field | The text you type, once it is three or more characters, with a fixed area covering western Europe (not your position) | Photon, run by komoot GmbH (photon.komoot.io), on OpenStreetMap data |
 | My location in the swim editor, with Where empty and not at a spot you have logged | Your coordinates rounded to about 10 m, to name the spot | Photon, as above |
 | Water quality, weather and "check before you swim" (paid Conditions data add-on) | The coordinates of the place you are viewing | Public data services: the Environment Agency, Natural Resources Wales, Ireland's EPA, DAERA (Northern Ireland), MET Norway, and the public storm-overflow feeds of English and Scottish water companies |
+| Whether a live warning is reported near your spot (free version, automatic, so it can tell you one exists) | The coordinates of the place you are viewing | The live-check services only: the Environment Agency's pollution-risk forecasts, Ireland's EPA notices, and the public storm-overflow feeds of English and Scottish water companies (not MET Norway) |
 
 MET Norway states that it keeps the IP address and the coordinates of each forecast request in its server logs in Oslo.
 If you would rather not send them, do not use the weather forecast on Planning.

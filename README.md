@@ -8,8 +8,8 @@ this one public repo is served by GitHub Pages, with a folder per app:
 | App | Folder | Policy URL | Status |
 | --- | --- | --- | --- |
 | Camino Diary | [`camino-diary/`](camino-diary/) | `/camino-diary/privacy/` | Draft |
-| Wild Swim Log | [`wild-swim-log/`](wild-swim-log/) | `/wild-swim-log/privacy/` (deletion requests: `/wild-swim-log/delete-account/`) | Ready to publish once the branch is merged |
-| Line of Fire | [`line-of-fire/`](line-of-fire/) | `/line-of-fire/privacy/` (terms of service: `/line-of-fire/terms/`) | Updated 10 Nov 2026 for Sentry (opt-in), RevenueCat purchases and the access code; merge before the production release |
+| Wild Swim Log | [`wild-swim-log/`](wild-swim-log/) | `/wild-swim-log/privacy/` (terms of service: `/wild-swim-log/terms/`; deletion requests: `/wild-swim-log/delete-account/`) | Ready; the privacy policy describes the free live-warning check, so merge this branch with the release that ships it |
+| Line of Fire | [`line-of-fire/`](line-of-fire/) | `/line-of-fire/privacy/` (terms of service: `/line-of-fire/terms/`) | Updated 15 Nov 2026 for Sentry (opt-in), RevenueCat purchases, the access code and local co-op (Nearby permissions); merge before the production release |
 
 ## Rules
 

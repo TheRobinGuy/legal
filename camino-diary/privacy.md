@@ -25,8 +25,13 @@ Everything you put into Camino Diary is stored on your phone, inside the app's o
 - the photos and stamp images you add (the app keeps its own copy of each);
 - your settings.
 
-None of it is sent to us. The app has no servers of its own. The maps come with the app, so looking at one sends
-nothing anywhere.
+None of it is sent to us. The app has no servers of its own.
+
+**Maps.** The routes, their stages and places come with the app. The offline map of a route is a download that the app
+asks for when you tap Download, or leave the box ticked when you start a trip. It comes through Google Play, the way
+the app itself did, so Google sees it as it sees any Play download, under its own privacy policy; we don't receive
+anything about it beyond the counts described under Crash reports and usage counts below. Once a map is on your phone,
+looking at it sends nothing anywhere.
 
 **Photos.** You choose photos through Android's photo picker, which gives the app only the photos you pick. The
 picker removes the location from those photos. A photo taken with the Camera button in the app is taken by your
@@ -76,12 +81,24 @@ Your data only leaves the app when you, or Android at your request, copy it some
   and how well they worked, under Google's own privacy policy; we don't receive them. For Google Play services, you
   can turn this off in your phone's settings, under Google, then Usage & diagnostics.
 
-<!-- WHEN crash reporting (Sentry) is switched on, add a section here: what a crash report holds (device model,
-     Android version, app version, the error and its stack trace; never diary text or photos), that it goes to
-     Sentry (Functional Software, Inc.), where it's stored, and how long it's kept. Update the Data safety form. -->
+## Crash reports and usage counts
 
-<!-- WHEN product analytics are switched on, add a section here: which events, what identifier (a random ID, not
-     linked to you), who processes them, and how to opt out. Update the Data safety form. -->
+If something goes wrong, or when you use a part of the app, Camino Diary can send a short report to Sentry (Functional
+Software, Inc., United States), which we use to find and fix problems and to see which parts of the app are used.
+
+- **A crash report** holds the error, your phone's model and Android version, the app's version, and a random ID the
+  app made for itself. It never holds your pages, photos, stamps, places, trip names, plans or your location, and not
+  your name, email address or IP address.
+- **A usage count** says that something happened (a page was saved, a photo was added, a day was split, a trip was
+  started, a route's map was downloaded, how long a download took or whether it failed), with sizes in rough ranges
+  and, for routes, which of the app's own Caminos it was (for example the Camino Francés). It never holds anything
+  you wrote or where you are.
+
+Reports are kept for 30 days. You can switch both off in Settings, under Diagnostics; the app then sends nothing at
+all. To have the reports from your phone deleted, email us the ID shown there.
+
+<!-- WHEN product analytics beyond these counts are switched on, say which events and who processes them, and update
+     the Data safety form. -->
 
 ## Purchases
 
@@ -95,7 +112,7 @@ will never see your card or payment details.
 
 ## Contact
 
-If you email us (for example with Send feedback in Settings), we receive your email address and what you write. We
+If you email us at seanchas.apps@gmail.com (for example with Send feedback in Settings), we receive your email address and what you write. We
 use them only to reply, and we don't add you to any list.
 
 ## What we don't do
@@ -127,4 +144,4 @@ If this policy changes, the new version will be posted here with a new date. Eve
 
 ## Contact us
 
-TODO: contact email address
+seanchas.apps@gmail.com

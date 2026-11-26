@@ -7,7 +7,7 @@ this one public repo is served by GitHub Pages, with a folder per app:
 
 | App | Folder | Policy URL | Status |
 | --- | --- | --- | --- |
-| Camino Diary | [`camino-diary/`](camino-diary/) | `/camino-diary/privacy/` | Draft |
+| Camino Diary | [`camino-diary/`](camino-diary/) | `/camino-diary/privacy/` | Draft; has the crash report, usage count and map download sections and the contact address; still needs the legal name and date. Merge with the release that sends them |
 | Wild Swim Log | [`wild-swim-log/`](wild-swim-log/) | `/wild-swim-log/privacy/` (terms of service: `/wild-swim-log/terms/`; deletion requests: `/wild-swim-log/delete-account/`) | Ready; the privacy policy describes the free live-warning check, so merge this branch with the release that ships it |
 | Line of Fire | [`line-of-fire/`](line-of-fire/) | `/line-of-fire/privacy/` (terms of service: `/line-of-fire/terms/`) | Updated 15 Nov 2026 for Sentry (opt-in), RevenueCat purchases, the access code and local co-op (Nearby permissions); merge before the production release |
 
